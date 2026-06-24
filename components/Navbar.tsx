@@ -12,7 +12,7 @@ const navLinks = [
   { label: "FAQ", href: "#faq" },
 ];
 
-const WHATSAPP_NUMBER = "5567999999999";
+const WHATSAPP_NUMBER = "556796995705";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.`;
 
 export default function Navbar() {

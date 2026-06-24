@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5567999999999?text=Ol%C3%A1%2C%20quero%20contratar%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.";
+  "https://wa.me/556796995705?text=Ol%C3%A1%2C%20quero%20contratar%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.";
 
 export default function FinalCTA() {
   return (
@@ -82,7 +82,7 @@ export default function FinalCTA() {
 
           {/* Trust line */}
           <p className="mt-8 text-white/35 text-sm">
-            Atendimento em Dourados, MS — (67) 99999-9999 · Sem custo na
+            Atendimento em Dourados, MS — (67) 9699-5705 · Sem custo na
             primeira consulta
           </p>
         </motion.div>

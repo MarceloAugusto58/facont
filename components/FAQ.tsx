@@ -126,7 +126,7 @@ export default function FAQ() {
             Ainda tem dúvidas? Nossa equipe está pronta para te ajudar.
           </p>
           <a
-            href="https://wa.me/5567999999999?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20contabilidade."
+            href="https://wa.me/556796995705?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20contabilidade."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-navy-700 font-semibold hover:text-gold-600 transition-colors group text-sm"

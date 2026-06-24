@@ -114,12 +114,12 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-gold-400 shrink-0" />
                 <a
-                  href="https://wa.me/5567999999999"
+                  href="https://wa.me/556796995705"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/50 hover:text-gold-400 text-sm transition-colors duration-200"
                 >
-                  (67) 99999-9999
+                  (67) 9699-5705
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -135,7 +135,7 @@ export default function Footer() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/5567999999999?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento."
+              href="https://wa.me/556796995705?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex items-center gap-2 px-4 py-2.5 bg-green-600/20 hover:bg-green-600/30 border border-green-600/30 text-green-400 text-sm font-medium rounded-lg transition-colors duration-200"

@@ -117,7 +117,7 @@ export default function HowItWorks() {
             A primeira conversa é gratuita. Sem compromisso.
           </p>
           <a
-            href="https://wa.me/5567999999999?text=Ol%C3%A1%2C%20quero%20conhecer%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade."
+            href="https://wa.me/556796995705?text=Ol%C3%A1%2C%20quero%20conhecer%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-7 py-3.5 bg-gold-500 hover:bg-gold-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-gold-500/30 hover:-translate-y-0.5"

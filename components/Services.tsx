@@ -160,7 +160,7 @@ export default function Services() {
             Não encontrou o que precisa? Temos muito mais a oferecer.
           </p>
           <a
-            href="https://wa.me/5567999999999?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20mais%20servi%C3%A7os%20da%20Facont%20Contabilidade."
+            href="https://wa.me/556796995705?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20mais%20servi%C3%A7os%20da%20Facont%20Contabilidade."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-navy-700 font-semibold hover:text-gold-600 transition-colors group"

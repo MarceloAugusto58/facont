@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Shield, TrendingUp, Clock } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5567999999999?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.";
+  "https://wa.me/556796995705?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.";
 
 const badges = [
   { icon: Shield, label: "Segurança & Conformidade" },
