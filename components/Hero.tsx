@@ -92,7 +92,7 @@ export default function Hero() {
             >
               Cuidamos de toda a burocracia contábil para que você possa focar no
               que realmente importa: fazer sua empresa crescer. Atendimento
-              personalizado para MEI, autônomos e pequenas e médias empresas.
+              personalizado para empresas de todos os portes.
             </motion.p>
 
             {/* CTAs */}
@@ -245,7 +245,7 @@ export default function Hero() {
                 className="absolute -top-5 -right-5 bg-white rounded-2xl px-4 py-3 shadow-xl border border-navy-100/20"
               >
                 <p className="text-navy-800 font-semibold text-sm">
-                  +15 anos de experiência
+                  36 anos de experiência
                 </p>
                 <p className="text-navy-400 text-xs">em Dourados, MS</p>
               </motion.div>

@@ -5,8 +5,8 @@ import { motion, useInView } from "framer-motion";
 
 const stats = [
   {
-    value: 15,
-    suffix: "+",
+    value: 36,
+    suffix: "",
     label: "Anos de Experiência",
     description: "Solidez e confiança no mercado contábil",
   },

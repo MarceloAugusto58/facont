@@ -68,16 +68,17 @@ export default function About() {
 
             <p className="text-charcoal/65 text-lg leading-relaxed mb-5">
               A Facont Contabilidade nasceu com um propósito claro: ser o
-              parceiro estratégico que pequenos e médios empresários precisam
-              para crescer com segurança. Há mais de 15 anos em Dourados, MS,
+              parceiro estratégico que empresários de todos os portes precisam
+              para crescer com segurança. Com 36 anos de experiência em Dourados, MS,
               construímos relacionamentos baseados em confiança, transparência e
               resultado.
             </p>
             <p className="text-charcoal/65 leading-relaxed mb-8">
-              Nossa equipe de contadores e especialistas se mantém sempre
-              atualizada com as constantes mudanças da legislação brasileira,
-              garantindo que sua empresa esteja em dia e aproveitando todas as
-              oportunidades legais de redução tributária.
+              Nossa equipe de contadores e especialistas é referência no atendimento
+              a empresas do Lucro Real — supermercados, indústrias e empresas de
+              materiais de construção — mantendo-se sempre atualizada com as
+              constantes mudanças da legislação brasileira e garantindo conformidade
+              total e aproveitamento máximo de créditos tributários.
             </p>
 
             {/* Pillars */}

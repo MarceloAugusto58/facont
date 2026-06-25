@@ -7,7 +7,8 @@ import {
   FileText,
   Users,
   Calculator,
-  Briefcase,
+  RefreshCcw,
+  Store,
 } from "lucide-react";
 
 const services = [
@@ -49,15 +50,23 @@ const services = [
     description:
       "Análise do melhor regime tributário — Simples Nacional, Lucro Presumido ou Real — para reduzir legalmente sua carga fiscal.",
     accent: "from-gold-500 to-gold-700",
-    tag: "Destaque",
+    tag: null,
   },
   {
-    icon: Briefcase,
-    title: "MEI e Autônomos",
+    icon: RefreshCcw,
+    title: "Recuperação de Créditos Tributários",
     description:
-      "Suporte completo para Microempreendedores Individuais e profissionais liberais: DAS, DASN, certificado e obrigações.",
+      "Identificamos e recuperamos créditos de tributos federais pagos indevidamente, gerando economia real para sua empresa.",
     accent: "from-rose-500 to-rose-700",
-    tag: null,
+    tag: "Novo",
+  },
+  {
+    icon: Store,
+    title: "Lucro Real",
+    description:
+      "Especialistas em contabilidade para empresas do Lucro Real — supermercados, indústrias, materiais de construção e grandes empresas.",
+    accent: "from-emerald-500 to-emerald-700",
+    tag: "Destaque",
   },
 ];
 
