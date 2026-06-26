@@ -18,7 +18,7 @@ const faqs = [
   {
     question: "O que acontece se minha empresa atrasar uma obrigação fiscal?",
     answer:
-      "Atrasos em obrigações fiscais geram multas e juros que podem ser significativos. Com a Facont, você conta com um calendário de obrigações gerenciado pela nossa equipe, que cuida de todos os prazos e envia lembretes proativos. Em caso de imprevistos, orientamos sobre as melhores opções de regularização, incluindo programas de parcelamento disponíveis.",
+      "Atrasos em obrigações fiscais geram multas e juros que podem ser significativos. Com a Contabil Pro, você conta com um calendário de obrigações gerenciado pela nossa equipe, que cuida de todos os prazos e envia lembretes proativos. Em caso de imprevistos, orientamos sobre as melhores opções de regularização, incluindo programas de parcelamento disponíveis.",
   },
   {
     question: "Como funciona a contabilidade para MEI?",
@@ -126,12 +126,10 @@ export default function FAQ() {
             Ainda tem dúvidas? Nossa equipe está pronta para te ajudar.
           </p>
           <a
-            href="https://wa.me/556796995705?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20contabilidade."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="inline-flex items-center gap-2 text-navy-700 font-semibold hover:text-gold-600 transition-colors group text-sm"
           >
-            Perguntar no WhatsApp
+            Entre em contato
             <span className="group-hover:translate-x-1 transition-transform">
               →
             </span>

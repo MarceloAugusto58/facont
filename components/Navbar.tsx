@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
 
 const navLinks = [
   { label: "Serviços", href: "#servicos" },
@@ -11,9 +10,6 @@ const navLinks = [
   { label: "Como Funciona", href: "#como-funciona" },
   { label: "FAQ", href: "#faq" },
 ];
-
-const WHATSAPP_NUMBER = "556796995705";
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.`;
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,14 +36,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-18 py-4">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <Image
-              src="/logoFacont.png"
-              alt="Facont Contabilidade"
-              width={200}
-              height={50}
-              className="h-10 w-auto object-contain"
-              priority
-            />
+            <span className="font-serif font-semibold text-white text-xl tracking-wide">Contabil Pro</span>
           </a>
 
           {/* Desktop nav */}
@@ -63,9 +52,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="ml-2 px-5 py-2.5 bg-gold-500 hover:bg-gold-400 text-white text-sm font-semibold rounded-lg transition-all duration-200 shadow-md hover:shadow-gold-500/30 hover:shadow-lg"
             >
               Fale Conosco
@@ -105,13 +92,11 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 onClick={() => setMenuOpen(false)}
                 className="mt-3 py-3 px-4 bg-gold-500 text-white text-center font-semibold rounded-lg"
               >
-                Fale Conosco pelo WhatsApp
+                Fale Conosco
               </a>
             </nav>
           </motion.div>

@@ -3,8 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-const WHATSAPP_URL =
-  "https://wa.me/556796995705?text=Ol%C3%A1%2C%20quero%20contratar%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.";
+const WHATSAPP_URL = "#";
 
 export default function FinalCTA() {
   return (
@@ -34,7 +33,7 @@ export default function FinalCTA() {
           <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-gold-500/30 bg-gold-500/10">
             <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
             <span className="text-gold-300 text-sm font-medium tracking-wide">
-              Atendimento imediato via WhatsApp
+              Entre em contato
             </span>
           </div>
 
@@ -48,7 +47,7 @@ export default function FinalCTA() {
 
           {/* Subtext */}
           <p className="text-white/65 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl mx-auto">
-            Deixe a Facont Contabilidade cuidar de toda a parte fiscal,
+            Deixe a Contabil Pro cuidar de toda a parte fiscal,
             trabalhista e societária da sua empresa. Você foca no crescimento —
             nós garantimos a conformidade.
           </p>
@@ -57,8 +56,6 @@ export default function FinalCTA() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
               href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gold-500 hover:bg-gold-400 text-white font-bold rounded-xl transition-colors duration-200 shadow-2xl shadow-gold-600/30 text-base"
@@ -82,8 +79,7 @@ export default function FinalCTA() {
 
           {/* Trust line */}
           <p className="mt-8 text-white/35 text-sm">
-            Atendimento em Dourados, MS — (67) 9699-5705 · Sem custo na
-            primeira consulta
+            Atendimento em Dourados, MS · Sem custo na primeira consulta
           </p>
         </motion.div>
       </div>

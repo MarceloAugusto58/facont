@@ -3,8 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Shield, TrendingUp, Clock } from "lucide-react";
 
-const WHATSAPP_URL =
-  "https://wa.me/556796995705?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Facont%20Contabilidade.";
+const WHATSAPP_URL = "#";
 
 const badges = [
   { icon: Shield, label: "Segurança & Conformidade" },
@@ -104,8 +103,6 @@ export default function Hero() {
             >
               <a
                 href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-3 px-7 py-4 bg-gold-500 hover:bg-gold-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-xl shadow-gold-600/25 hover:shadow-gold-500/40 hover:shadow-2xl hover:-translate-y-0.5 text-base"
               >
                 <svg

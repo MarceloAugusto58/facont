@@ -17,13 +17,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Facont Contabilidade | Escritório Contábil em Dourados MS",
+  title: "Contabil Pro | Escritório Contábil em Dourados MS",
   description:
     "Escritório de contabilidade em Dourados, MS. Especialistas em abertura de empresa, contabilidade mensal, imposto de renda, folha de pagamento e planejamento tributário. Atendemos MEI, autônomos e PMEs.",
   keywords:
-    "contabilidade Dourados, escritório contábil Dourados MS, abertura de empresa Dourados, imposto de renda Dourados, Facont Contabilidade",
+    "contabilidade Dourados, escritório contábil Dourados MS, abertura de empresa Dourados, imposto de renda Dourados, Contabil Pro",
   openGraph: {
-    title: "Facont Contabilidade | Escritório Contábil em Dourados MS",
+    title: "Contabil Pro | Escritório Contábil em Dourados MS",
     description:
       "Simplificamos a contabilidade para que você foque no que importa: crescer o seu negócio.",
     type: "website",
